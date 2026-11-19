@@ -10,9 +10,9 @@
     </head>
 
     <body>
-        <nav class="navbar md:navbar-expand bg-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Cattoro Cafe</a>
+    <nav class="navbar md:navbar-expand bg-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Cattoro Cafe</a>
 
     <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" aria-hidden="true"></span>
@@ -50,7 +50,42 @@
         </ul>
       </div>
     </dialog>
+    </div>
+    </nav>
+
+    <div id="carouselSI" class="carousel slide">
+      <div class="carousel-inner rounded-5">
+
+    <div class="carousel-item active">
+      <img src="images/cookie.jpeg" class="d-block w-100 h-100" alt="Chocolate Chip Cookies">
+    </div>
+    <div class="carousel-item">
+      <img src="images/lemon.JPG" class="d-block w-100 h-100" alt="Cheesecake Lemon Tarts">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cake.jpg" class="d-block w-100 h-100" alt="Strawberry Cake">
+    </div>
   </div>
-</nav>
+
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselSI" data-bs-slide="prev">
+          <span class="carousel-icon-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselSI" data-bs-slide="next">
+          <span class="carousel-icon-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselSI" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselSI" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselSI" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+      </div>
+    </div>
+
     </body>
 </html>
