@@ -67,6 +67,7 @@
     </div>
   </div>
 
+
   <div class="d-flex justify-content-between align-items-center">
     <div>
       <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselhero" data-bs-slide="prev">
@@ -87,6 +88,7 @@
       </div>
     </div>
 
+
     <div class="container my-5">
       <h2 class="text-center mb-4">Welcome to Cattoro Cafe</h2>
       <p class="text-center">At Cattoro Cafe, we pride ourselves on serving the finest coffee and pastries in town. Our cozy atmosphere and friendly staff make it the perfect place to relax and enjoy a cup of coffee or a delicious treat.</p>
@@ -98,24 +100,43 @@
 
     <img src="images/brownie.JPG" class="card-img w-100" alt="Unbake Brownie Batter">
     <h5 class="mt-2 mb-0">Brownie Recipe</h5>
-    <p class="card-text fg-2">A delicious chocolate brownie recipe that's sure to satisfy your sweet tooth.</p>
+      <p class="card-text fg-2">A delicious chocolate brownie recipe that's sure to satisfy your sweet tooth.</p>
 
     <div class="accordion">
         <details class="accordion-item" name="accordionExample" open>
           <summary class="accordion-header">
-          our story
+          The Story
             <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
           </summary>
-        <div class="accordion-body">
-          <p>These are our famous brown butter double chocolate brownies, perfect for any chocolate lover!</p>
-        </div>
+          <div class="accordion-body">
+            <p>These are our famous brown butter double chocolate brownies, perfect for any chocolate lover!</p>
+          </div>
         </details>
     </div>
 
+    <div class="button d-flex flex-column align-items-center">
+      <button type="button d-flex flex-column align-items-center" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#browniedialog">More Details</button>
+    </div>
+
+    <dialog class="dialog" id="browniedialog">
+      <div class="dialog-header">
+        <h1 class="dialog-title text-center">Recipe</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
       </div>
+
+    <div class="dialog-body">
+      <p>Shhhhhhhhh...its a trade secret...yummy Brownies though</p>
+    </div>
+
+    <div class="dialog-footer">
+      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    </div>
+    </dialog>
       </div>
+
+      
+        </div>
       </div>
     </div>
     </body>
-
 </html>
